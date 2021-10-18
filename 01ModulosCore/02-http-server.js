@@ -12,7 +12,7 @@ console.log('Server running at http://127.0.0.1:1337/')
 */
 'use strict'
 
-var http = require('http')
+let http = require('http')
 
 function webServer(req, res)
 {

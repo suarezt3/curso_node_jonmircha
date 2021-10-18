@@ -4,8 +4,8 @@ http://www.etnassoft.com/2011/03/14/funciones-autoejecutables-en-javascript/
 */
 'use strict'
 
-var Clock = (function (){
-	var EventEmitter = require('events').EventEmitter,
+let Clock = (function (){
+	let EventEmitter = require('events').EventEmitter,
 		inherits = require('util').inherits
 
 	//constructor

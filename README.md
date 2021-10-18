@@ -1,3 +1,3 @@
-# Curso de Node.js de @jonmircha
+# Curso de Node.js
 
-En este repositorio encontrarás los códigos del [Curso de Node.js de @jonmircha](https://www.youtube.com/playlist?list=PLvq-jIkSeTUY3gY-ptuqkNEXZHsNwlkND)
+

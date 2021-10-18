@@ -1,4 +1,5 @@
 'use strict'
+//? Uso de clases
 
 class Clock
 {
@@ -11,7 +12,7 @@ class Clock
 
 	theTime()
 	{
-		var date = new Date(),
+		let date = new Date(),
 			hrsAmPm = ( date.getHours() > 12 ) ? ( date.getHours() - 12) : date.getHours(),
 			hrs = addZero( hrsAmPm ),
 			min = addZero( date.getMinutes() ),

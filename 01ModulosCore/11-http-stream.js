@@ -1,8 +1,8 @@
 'use strict'
 
-var http = require('http').createServer(webServer),
-	fs = require('fs'),
-	index = fs.createReadStream('assets/index.html')
+let http = require('http').createServer(webServer)
+let	fs = require('fs') //? Esto llama al modulo de filesystem
+let	index = fs.createReadStream('assets/index.html')
 
 function webServer(req, res)
 {

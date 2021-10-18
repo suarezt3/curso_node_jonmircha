@@ -1,6 +1,6 @@
 'use strict'
 
-var http = require('http').createServer()
+let http = require('http').createServer()
 
 function webServer(req, res)
 {
